@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+    td{
+        background-color:antiquewhite;
+    }
+    input{
+        background-color: aqua;
+    }
+    select{
+        background-color: aqua;
+    }
+    button:active{
+        background-color: blueviolet;
+    }
+    button{
+        width: 200px;
+        height: 30px;
+    }
+
+</style>
+<center>
+    <h1>REGISTER</h1>
+    <table border="1">
+        <form action="thank.html" method="post">
+    <tr>
+        <td>First Name: <input type="text" name="first_name" id="first_name" placeholder="Sok" size="30"></td>
+    </tr>
+    <tr>
+        <td>Last Name: <input type="text" name="firt_name" id="last_name" placeholder="Visal" size="30"></td>
+    </tr>
+    <tr>
+        <td>Gender: 
+        
+            <label for="gender"><input type="radio" value="gender" id="gender" name="gender" size="30">Male</label>
+            <label for="gender"><input type="radio" value="gender" id="gender" name="gender" size="30">Female</label>
+        </td>
+    </tr>
+    <tr>
+        <td>Day of birth <input type="date" id="date_of_birth" name="datetime" value="dd/mm/yyyy" size="30"></td>
+    </tr>
+    <tr>
+        <td>Phone number <input type="number" id="phone_number" placeholder="012245788" name="phone_number" size="30"></td>
+    </tr>
+    <tr>
+        <!-- <td>Nationality <input type="text" placeholder="Khmer" id="nationality"></td> -->
+        <td>
+            <label for="nationality">Nationality: </label>
+            <select name="nationality" id="nationality">
+                <option value="Khmer">Khmer</option>
+                <option value="Vietnam">Vietnamese</option>
+                <option value="Thai">Thai</option>
+            </select>
+        </td>
+    
+    </tr>
+    <tr>
+        <td>Place of birth:  <textarea name="place_of_birth" id="" cols="30" rows="2"></textarea></td>
+    </tr>
+        
+    <tr>
+        <td>
+        <label for="name">Pick A Campus: </label>
+        <select name="campus" id="campus">
+            <option value="Campus1">Campus 1</option>
+            <option value="campus2">Campus 2</option>
+        </select>
+    </td>
+    </tr>
+    <tr>
+        <td>major: <select name="" id="">
+            <option value="">Software</option>
+            <option value="">Networking</option>
+            <option value="">Multiple Media</option>
+
+        </select></td>
+    </tr>
+    <tr>
+        <td>Shift: <input type="radio" name="shift" id="shift" value="checkbox">Morning
+                    <input type="radio" name="shift" id="shift" value="checkbox">Afternoon
+                    <input type="radio" name="shift" id="shift" value="checkbox">Evening </td>
+    </tr>
+    <tr>
+        <td>
+            <button>
+        <input type="reset"></td>
+    </button>
+    </tr>
+    <tr>
+        <td><input type="submit" name="" id=""></td>
+    </tr>
+    <tr>
+        <td><input type="file"></td>
+    </tr>
+    <tr>
+        <td>Payment: <input type="text" readonly placeholder="700$"></td>
+    </tr>
+    
+</form>
+</table>
+
+<br><br><br>
+    <form action="../htmlwd/thank.html" method="post" target="_blank">
+        <h1></h1>
+        <input type="text" id="first_name" name="first_name" placeholder="first_name" size="24">
+        <input type="text" id="Last_name" placeholder="Last_name" size="24"><br>
+        <input type="email" placeholder="Mobile number or email" size="54"><br>
+        <input type="password" name="" id="" placeholder="password" size="54"><br>
+        <select name="" id="">
+            <option value="">Jan</option>
+            <option value="">Feb</option>
+            <option value="">Mar</option>
+            <option value="">Apr</option>
+            <option value="">May</option>
+            <option value="">Jon</option>
+            <option value="">Jul</option>
+            <option value="">Aug</option>
+            <option value="">Set</option>
+            <option value="">Opt</option>
+            <option value="">Nov</option>
+            <option value="">Dec</option>
+        </select>
+        <select name="" id="">
+            <option value="">Mon</option>
+            <option value="">Tue</option>
+            <option value="">Wen</option>
+            <option value="">Thu</option>
+            <option value="">Fri</option>
+            <option value="">Sat</option>
+            <option value="">Sun</option>
+        </select>
+        <select name="" id="">
+            <option value="">2000</option>
+            <option value="">1999</option>
+            <option value="">1998</option>
+            <option value="">1997</option>
+            <option value="">1996</option>
+            <option value="">1995</option>
+            <option value="">1994</option>
+        </select><br>
+        Male<input type="radio" id="gender" name="gender">     
+        Female<input type="radio" id="gender" name="gender">       
+        costum<input type="radio" id="gender" name="gender"><br>  
+        <button type="submit" si>Sign up</button>
+    </form>
+
+</center>
+</body>
+</html>
